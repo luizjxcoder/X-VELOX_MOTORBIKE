@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, ul, p{
+    margin: 0px;
+}
+
+ul{
+    padding: 0px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;/*Herda valor do pai-cor branco*/
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.header-bg{
+    background-color: #000000 ;
+}
+
+.header{
+    display: flex ;
+    flex-wrap: wrap /*Quebra linha no modo responsivo*/;
+    gap: 20px; /*Distancia dos elementos no modo responsivo*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-menu{
+    display: flex ;
+    gap: 40px;
+}
+
+.header-menu a{ /* Aumenta area de contato do link interno*/
+    color: #ffffff;
+    display: inline-block;
+    padding: 16px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    position: relative;/*Resolve problema com Elemento pegando toda largura */
+}
+
+.header-menu a:after{ /*Elemento com transições abaixo dos menus no header*/
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: #ffffff;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: relative;/*Retira o Elemento do fluxo e não quebra centralização com a imagem do logo*/
+}
+
+.header-menu a:hover:after{/*Elemento abaixo do header menus*/
+    width: 100%;
+}
+
+
+
+/*RESPONSIVO*/
+@media (max-width: 800px){
+    .header-menu{
+        gap: 20px;
+    }
+    .header-menu a{
+        background: #111111;
+        padding: 12px 16px;
+        border-radius: 4px;
+    }
+    .header-menu a:hover{ 
+        background-color: #2e2e2e;
+    }
+    .header a:after{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    .header-menu{
+    gap: 12px;
+    }
+    .header-menu a{
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+/*****************INTRODUÇÃO**********************/
+.introducao-bg{
+    background: #000000;
+    color: #ffffff ;
+}
+
+.introducao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+}
+
+.introducao p, .introducao a{
+    grid-column: 1;
+}
+
+.introducao img{
+    grid-column: 2;
+    grid-row: 1/3;
+}           
