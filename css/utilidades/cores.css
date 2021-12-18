@@ -1,0 +1,25 @@
+/*--------PADRÃO CORES PARA O SITE---------*/
+/*Variável CSS*/
+:root{
+    --cor-0: #ffffff;
+    --cor-2:#b2b2b2;
+    --cor-10: #2c2c2c;
+    --cor-11: #111111;
+    --cor-12: #000000;
+    --cor-p1:#ffbb00;
+}
+/*Classes Utilitarias para utilizar direto HTML*/
+.cor-0{
+    color: #ffffff;
+}
+
+.cor-5{
+    color: #b2b2b2;
+}
+
+.cor-p1{
+    color: var(--cor-p1);
+}
+
+
+
