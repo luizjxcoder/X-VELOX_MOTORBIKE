@@ -20,9 +20,9 @@
 }
 
 .header-menu a{ /* Aumenta area de contato do link interno*/
-    color: var(--cor-0);
+    background: var(--cor-11);
     display: inline-block;
-    padding: 16px 16px;
+    padding: 10px 16px;
     border-radius: 4px;
     font-size: 18px;
     position: relative;/*Resolve problema com Elemento pegando toda largura */
