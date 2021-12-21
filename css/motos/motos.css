@@ -1,0 +1,50 @@
+.motos-lista{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.motos-lista h2{
+   margin-bottom: 40px; 
+   max-width: 1200px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.motos-lista ul{
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.motos-lista a{
+    display: block;
+}
+
+.motos-lista img{
+    margin-bottom: 16px;
+}
+
+.motos-lista h3{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.motos-lista h3::before{
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+    background-color: var(--cor-p1);
+}
+
+.motos-lista li span{
+    padding-left: 20px;
+}
+

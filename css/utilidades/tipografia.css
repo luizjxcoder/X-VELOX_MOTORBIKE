@@ -56,7 +56,7 @@
   
   @media (max-width: 1200px) {
     .font-1-xxl {
-      font-size: 3rem;
+      font-size: 2rem;
     }
     .font-2-l,
     .font-2-l-b {
@@ -68,8 +68,9 @@
     .font-1-xxl {
       font-size: 2rem;
     }
-    .font-1-xl,
+    .font-2-l,
     .font-2-xl {
       font-size: 1.5rem;
     }
   }
+

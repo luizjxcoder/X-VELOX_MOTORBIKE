@@ -4,7 +4,7 @@ body{
     padding-bottom: 600px;
 }
 
-h1, ul, p{
+h1, h2, h3, h4, ul, p{
     margin: 0px;
 }
 
@@ -21,4 +21,8 @@ a{
 img{
     max-width: 100%;
     display: block;
+}
+/*Atribui bordas somente para arquivos jpg*/
+img [src$=".jpg"]{
+    border-radius: 4px;
 }

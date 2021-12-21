@@ -66,14 +66,6 @@
     }
 }
 
-@media(max-width: 1200px){
-    .introducao h1{
-        font-size: 48px;
-    }
-    .introducao p{
-        font-size: 18px;
-    }
-}
 @media(max-width: 800px){
     .introducao-bg{
         background: #111111;
@@ -88,7 +80,6 @@
         padding-bottom: 0px;
     }
     .introducao h1{
-        font-size: 32px;
         margin-bottom: 16px;
     }
     .introducao img{

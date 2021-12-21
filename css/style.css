@@ -4,5 +4,9 @@
 @import"./utilidades/componente.css";
 @import"./utilidades/tipografia.css";
 @import"./utilidades/cores.css";
+
 /*----------------HOME-------------*/
 @import"./home/introducao.css";
+
+/*----------------MOTOS-------------*/
+@import"./motos/motos.css";
