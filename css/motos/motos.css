@@ -5,20 +5,22 @@
 
 .motos-lista h2{
    margin-bottom: 40px; 
-   max-width: 1200px;
-   padding-left: 20px;
-   padding-right: 20px;
-   margin-left: auto;
-   margin-right: auto;
 }
 
 .motos-lista ul{
     display: flex;
     gap: 40px;
-    padding: 0 20px;
+    padding: 0 20px 20px 20px;
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
+    overflow-x: auto;/*Scrolla no eixo x somente a litsta de motos caso vase o container. Auto para caso necessário irá aparecer a barra de scroll*/
+}
+
+
+.motos-lista li{
+    flex: 1;
+    min-width: 280px;
 }
 
 .motos-lista a{
@@ -42,9 +44,23 @@
     width: 12px;
     margin-right: 8px;
     background-color: var(--cor-p1);
+    transition: width 0.2s ;
+}
+
+.motos-lista a:hover h3::before{
+    width: 24px;
 }
 
 .motos-lista li span{
     padding-left: 20px;
+}
+
+@media (max-width: 800px){
+    .motos-lista{
+        padding-bottom: 60px;
+    }
+    .motos-lista ul{
+        gap: 20px;
+    }
 }
 

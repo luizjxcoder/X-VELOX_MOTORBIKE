@@ -1,0 +1,53 @@
+.tecnologia-bg{
+    background-color: var(--cor-11);
+    box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0)/*virgula e copia codigo a mesma configuração para baixo do elemento-cria uma sombra branca para parecer que a imagem esta vazando*/
+}
+
+.tecnologia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.tecnologia-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*Não deforma imagem */
+    object-position: left;
+}
+
+.tecnologia-conteudo{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.tecnologia-conteudo > span{/*pega somente um span do bloco*/
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tecnologia-conteudo h2{
+    margin-bottom: 32px;
+}
+
+.tecnologia-conteudo > p{
+    margin-bottom: 20px;
+}
+
+.tecnologia-conteudo a{
+    margin-bottom: 80px;
+}
+
+.tecnologia-vantagens{
+    display: flex;
+    gap: 40px;;
+}
+
+.tecnologia-vantagens h3{
+    margin-bottom: 8px;
+    width: max-content;
+}
+.tecnologia-vantagens img{
+    width: 24px;
+    margin-bottom: 8px;
+}
