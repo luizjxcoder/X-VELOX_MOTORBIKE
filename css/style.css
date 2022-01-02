@@ -8,6 +8,9 @@
 /*----------------HOME-------------*/
 @import"./home/introducao.css";
 @import"./home/tecnologia.css";
+@import"./home/parceiros.css";
+@import"./home/depoimento.css";
+
 
 /*----------------MOTOS-------------*/
 @import"./motos/motos.css";
