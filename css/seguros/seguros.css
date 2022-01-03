@@ -37,12 +37,32 @@
     margin-bottom: 32px;
 }
 
-.seguro-item li +li{ /* + li sobrepoem li após li*/
-    margin-top: 20px;
-
+.seguro-item li{
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
+.seguro-item li +li{ /* + li sobrepoem li após li*/
+    margin-top: 20px;
+}
+
+.seguro-item li::before{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url(../../motos-img/icones/lista.svg);
+    position: absolute;
+    left: -21px;
+}
 
 .seguro-item a{
     grid-column: 1/-1;
+}
+
+@media(max-width: 800px){
+    .seguro{
+        grid-template-columns: 1fr;
+    }
 }
