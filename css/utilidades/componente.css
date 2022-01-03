@@ -24,6 +24,18 @@
     background: linear-gradient(#FFB60d, #e59317);
 }
 
+
+/*Botão secundario fundo cinza*/
+.button.secundario{
+    background: var(--cor-10);
+    color: var(--cor-2);
+}
+
+.button.button.secundario:hover{
+    background: var(--cor-9);
+}
+
+
 @media (max-width: 600px){
     .button{
         padding: 12px 16px;
