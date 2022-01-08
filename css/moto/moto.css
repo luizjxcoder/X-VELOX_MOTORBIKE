@@ -1,0 +1,62 @@
+.moto{
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-self: start;
+gap: 40px;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.moto-imagem{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.moto-imagem img{
+    flex: 1;
+    min-width: 200px;
+}
+
+.moto-imagem img:first-child{
+min-width: 100%;
+}
+
+.moto-conteudo > p{
+    margin-bottom: 32px;
+}
+
+.moto-comprar{
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    justify-items: start;
+    gap: 8px 12px;
+}
+
+.moto-comprar a{
+    grid-row: span 2;
+}
+
+.moto-comprar span{
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-12);
+    gap: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.moto-conteudo{
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    margin-bottom: 12px;
+}
+
+.moto-informcoes,
+.moto-ficha{
+    padding: 32px;
+    background-color: var(--cor-12);
+}
+

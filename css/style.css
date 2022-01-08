@@ -17,6 +17,9 @@
 @import"./motos/motos.css";
 @import"./motos/motos-lista.css";
 
+/*----------------MOTO---------------*/
+@import"./moto/moto.css";
+
 /*----------------SEGUROS-------------*/
 @import"./seguros/seguros.css";
 @import"./seguros/vantagens.css";
