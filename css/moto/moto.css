@@ -1,10 +1,14 @@
 .moto{
 display: grid;
 grid-template-columns: 1fr 1fr;
-align-self: start;
+align-items: start;
 gap: 40px;
 padding-top: 60px;
 padding-bottom: 60px;
+}
+
+#moto .titulo p{
+    text-transform: uppercase;
 }
 
 .moto-imagem{
@@ -32,6 +36,8 @@ min-width: 100%;
     align-items: center;
     justify-items: start;
     gap: 8px 12px;
+    margin-bottom: 40px;
+
 }
 
 .moto-comprar a{
@@ -45,18 +51,67 @@ min-width: 100%;
     gap: 8px;
     padding: 4px 8px;
     border-radius: 4px;
-    margin-bottom: 40px;
 }
 
-.moto-conteudo{
+.moto-conteudo  h2{
     text-transform: uppercase;
     letter-spacing: 0.015em;
     margin-bottom: 12px;
 }
 
-.moto-informcoes,
+.moto-informacoes,
 .moto-ficha{
+    margin-bottom: 10px;
     padding: 32px;
     background-color: var(--cor-12);
 }
 
+.moto-informacoes{
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.moto-informacoes img{
+    width: 24px;
+    margin-bottom: 8px;
+}
+
+.moto-informacoes h3{
+    margin-bottom: 8px;
+}
+.moto-ficha li{
+    padding: 4px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--cor-11);
+}
+
+.moto-ficha li:last-child{
+    border-bottom: none;
+}
+
+.moto-ficha span{
+    color: var(--cor-6);
+}
+
+@media (max-width: 800px){
+    .moto{
+        grid-template-columns: 1fr;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .moto-imagem{
+        grid-row: 2;
+    }
+}
+
+@media (max-width: 400px){
+      .moto-informacoes{
+        grid-template-columns: 1fr;
+    }
+    .moto-comprar{
+        grid-template-columns: 1fr;
+    }
+}
