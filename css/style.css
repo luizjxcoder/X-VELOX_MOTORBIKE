@@ -19,6 +19,7 @@
 
 /*----------------MOTO---------------*/
 @import"./moto/moto.css";
+@import"./moto/seguro.css";
 
 /*----------------SEGUROS-------------*/
 @import"./seguros/seguros.css";
