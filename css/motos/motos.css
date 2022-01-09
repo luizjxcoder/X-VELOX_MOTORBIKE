@@ -17,6 +17,10 @@
     overflow-x: auto;/*Scrolla no eixo x somente a litsta de motos caso vase o container. Auto para caso necessário irá aparecer a barra de scroll*/
 }
 
+#motos .motos-lista ul{
+    padding: 0px 0px 20px 0px;
+}
+
 
 .motos-lista li{
     flex: 1;
