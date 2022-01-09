@@ -22,6 +22,10 @@ padding-bottom: 60px;
     min-width: 200px;
 }
 
+.yamaha-img{
+    padding-left: 132px;
+}
+
 .moto-imagem img:first-child{
 min-width: 100%;
 }
@@ -104,6 +108,9 @@ min-width: 100%;
     }
     .moto-imagem{
         grid-row: 2;
+    }
+    .yamaha-img{
+        padding-left: 10px;
     }
 }
 
