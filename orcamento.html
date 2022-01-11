@@ -38,91 +38,123 @@
       <div class="titulo container">
         <p class="font-2-1-b cor-5">Cotações no seu email</p>
         <h1 class="font-1-xxl cor-0">
-          solicite um<span class="cor-p1">.</span>
+          solicite um orçamento<span class="cor-p1">.</span>
         </h1>
       </div>
     </div>
 
     <!--------------------FORMULÁRIO--------------->
-    <form class="orcamento container" action="./">
+    <form class="orcamento container" action="./orcamento.html">
       <div class="orcamento-produto">
-        <h2 class="font-1-xs cor-5">X-Velox ou Seguro</h2>
+        <h2 class="font-1-xs cor-5">X-Velox ou Seguro?</h2>
 
-        <input type="radio" name="tipo" value="velox" id="velox">
+        <input type="radio" name="tipo" value="xvelox" id="xvelox">
         <label for="xvelox">X-Velox</label>
 
         <input type="radio" name="tipo" value="seguro" id="seguro">
         <label for="seguro">Seguro</label>
 
-        <div class="orcamento-conteudo" id="orcameto-xvelox">
-          <h2 class="font-1-1 cor-0">Escolha a sua! (X-Velox)</h2>
+        <div class="orcamento-conteudo" id="orcamento-xvelox">
+          <h2 class="font-1-xs cor-5">Escolha a sua</h2>
+
+          <!-----------------------------EVS---------------------------------->
+          <input type="radio" name="produto" value="evs" id="evs">
+          <label for="evs">Voltz-EVS <span>R$ 19999</span></label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs cor-8">
+              <li><img src="./motos-img/icones/eletrica.svg" alt=""> Motor Elétrico</li>
+              <li><img src="./motos-img/icones/carbono.svg"" alt=""> Fibra de Carbono</li>
+             <li><img src=" ./motos-img/icones/velocidade.svg"" alt=""> 120 km/h</li>
+              <li><img src="./motos-img/icones/rastreador.svg"" alt=""> Rastreador</li>
+           </ul>
+           <img src=" ../../motos-img/voltz-evs-1p.jpg" alt="moto cinza">
+          </div>
+
+          <!-----------------------------YAMAHA---------------------------------->
+          <input type="radio" name="produto" value="yamaha" id="yamaha">
+          <label for="yamaha">Yamaha TY-E <span>R$ 11499</span></label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs cor-8">
+              <li><img src="./motos-img/icones/eletrica.svg" alt=""> Motor Elétrico</li>
+              <li><img src="./motos-img/icones/carbono.svg"" alt=""> Fibra de Carbono</li>
+             <li><img src=" ./motos-img/icones/velocidade.svg"" alt=""> 120 km/h</li>
+              <li><img src="./motos-img/icones/rastreador.svg"" alt=""> Rastreador</li>
+           </ul>
+           <img src=" ../../motos-img/yamaha-ty.png" alt="moto cinza">
+          </div>
+
+          <!-----------------------------TRIUMPH---------------------------------->
+          <input type="radio" name="tipo" value="triumph" id="triumph">
+          <label for="triumph">Triumph TE-1<span>R$ 32999</span>
+          </label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs cor-8">
+              <li><img src="./motos-img/icones/eletrica.svg" alt=""> Motor Elétrico</li>
+              <li><img src="./motos-img/icones/carbono.svg"" alt=""> Fibra de Carbono</li>
+             <li><img src=" ./motos-img/icones/velocidade.svg"" alt=""> 180 km/h</li>
+              <li><img src="./motos-img/icones/rastreador.svg"" alt=""> Rastreador</li>
+           </ul>
+           <img src=" ../../motos-img/triumph eye.jpg" alt="moto cinza">
+          </div>
+
+
+
+          <div class="orcamento-conteudo" id="orcamento-seguro">
+            <h2 class="font-1-xs cor-5">Escolha o plano</h2>
+
+            <input type="radio" name="produto" value="prata" id="prata">
+            <label for="prata">Prata <span>R$ 199</span></label>
+
+            <input type="radio" name="produto" value="ouro" id="ouro">
+            <label for="ouro">Ouro <span>R$ 299</span></label>
+          </div>
         </div>
-
-        <div class="orcamento-conteudo" id="orcametno-seguro">
-          <h2 class="font-1-1 cor-0">Escolha o plano!</h2>
+        <div class="orcamento-dados form">
+          <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+          </div>
+          <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome">
+          </div>
+          <div class="col-2">
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+          </div>
+          <div class="col-2">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <h2 class="font-1-xs cor-9 col-2">entrega</h2>
+          <div>
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" name="cep">
+          </div>
+          <div>
+            <label for="numero">Número</label>
+            <input type="text" id="numero" name="numero">
+          </div>
+          <div>
+            <label for="logradouro">Logradouro</label>
+            <input type="text" id="logradouro" name="logradouro">
+          </div>
+          <div>
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" name="bairro">
+          </div>
+          <div>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade">
+          </div>
+          <div>
+            <label for="estado">Estado</label>
+            <input type="text" id="estado" name="estado">
+          </div>
+          <button class="button col-2">Solicitar Orçamento</button>
         </div>
-      </div>
-      <div class="orcamento-dados form">
-        <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
-
-        <div>
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome">
-        </div>
-
-        <div>
-          <label for="sobrenome">sobrenome</label>
-          <input type="text" id="sobrenome" name="sobrenome">
-        </div>
-
-        <div class="col-2">
-          <label for="cpf">CPF</label>
-          <input type="text" cpf="nome" name="cpf" placeholder="000.000.000-00">
-        </div>
-
-        <div class="col-2">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email">
-        </div>
-
-        <h2 class="font-1-xs cor-9 col-2">Entrega</h2>
-
-        <div>
-          <label for="cep">CEP</label>
-          <input type="text" id="cep" name="cep">
-        </div>
-
-        <div>
-          <label for="numero">Número</label>
-          <input type="text" id="numero" name="numero">
-        </div>
-
-        <div>
-          <label for="logradouro">Logradouro</label>
-          <input type="text" id="logradouro" name="logradouro">
-        </div>
-
-        <div>
-          <label for="bairro">Bairro</label>
-          <input type="text" id="bairro" name="bairro">
-        </div>
-
-        <div>
-          <label for="cidade">Cidade</label>
-          <input type="text" id="cidade" name="cidade">
-        </div>
-
-        <div>
-          <label for="estado">Estado</label>
-          <input type="text" id="estado" name="estado">
-        </div>
-
-        <button>Solicitar Orçamento</button>
-
-      </div>
-
     </form>
-
   </main>
   <!---------------------ÁREA DO FOOTER-------------------->
   <footer class="footer-bg">
