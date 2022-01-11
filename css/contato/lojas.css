@@ -8,6 +8,7 @@
 
 .lojas h2{
     grid-column: 1/-1;
+    padding-bottom: 20px;
 }
 
 .lojas img{
@@ -47,7 +48,7 @@
         padding-bottom: 60px;
     }
     .lojas h2{
-        margin-bottom: 32px;
+        margin-bottom: 0px;
     }
     .lojas-conteudo{
         grid-template-columns: 1fr;
@@ -57,5 +58,8 @@
 @media (max-width: 600px) {
     .lojas{
         grid-template-columns: 1fr;
+    }
+    .lojas h2{
+        margin-bottom: 0px;
     }
 }

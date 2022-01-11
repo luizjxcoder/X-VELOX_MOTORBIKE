@@ -1,6 +1,7 @@
 @import"./global/global.css";
 @import"./global/header.css";
 @import"./global/footer.css";
+
 /*-------------UTILIDADES----------*/
 @import"./utilidades/componente.css";
 @import"./utilidades/tipografia.css";
@@ -12,7 +13,6 @@
 @import"./home/tecnologia.css";
 @import"./home/parceiros.css";
 @import"./home/depoimento.css";
-
 
 /*----------------MOTOS-------------*/
 @import"./motos/motos.css";
@@ -30,6 +30,9 @@
 /*----------------CONTATO---------------*/
 @import"./contato/contato.css";
 @import"./contato/lojas.css";
+
+/*----------------ORÇAMENTO---------------*/
+@import"./orcamento/orcamento.css";
 
 /*----------------TERMOS---------------*/
 @import"./termos/termos.css";
