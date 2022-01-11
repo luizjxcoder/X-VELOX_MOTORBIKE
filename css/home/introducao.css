@@ -1,5 +1,6 @@
 .introducao-bg{
-    background: var(--cor-12);
+    background: var(--cor-12) url(../../motos-img/dec/bottom-left.svg) no-repeat 
+    bottom 160px left 20px;  
     color: var(--cor-0);
     box-shadow: inset 0px -120px #ffffff;/*Criado sombra interna branca que deixa a imagem de forma negativa*/
 }
