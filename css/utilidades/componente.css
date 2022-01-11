@@ -19,6 +19,8 @@
     color: #332200;
     font: 600 1.125rem/1.35 'Poppins', sans-serif;
     max-width: max-content; /*Botão não cresce e permanece de tamanho unico*/
+    border: none;
+    cursor: pointer;
 }
 
 .button:hover{
