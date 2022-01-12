@@ -8,6 +8,9 @@
   <title>X-VeLox Motorbike</title>
   <meta name="description"
     content="Motos eléticas de alta velocidade que seram o futuro do transporte terrestre, feitas sobre medida para sua necessidade" />
+
+  <link rel="preload" href="./css/style.css" as="style">
+  <!--Pré carrega css antes de tudo-->
   <link rel="stylesheet" href="./css/style.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,7 +24,7 @@
   <header class="header-bg">
     <div class="header container">
       <!--Esta div segura o container do header com fundo preto que vai de ponta a ponta-->
-      <a href="./"><img src="./motos-img/logobranco.png" bike" /></a>
+      <a href="./"><img src="./motos-img/logobranco.png" alt="moto"></a>
 
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
@@ -43,13 +46,15 @@
           Motos Elétricas de alta ou baixas cilindradas. Desenhadas por
           Designers, produzidas para atender todas as necessidades
         </p>
-        <a class="button" href="./motos.html">Faça sua escolha!<span class="cor-p1"></span></a>
+        <a class="button" href="./motos.html">Faça sua escolha!</a>
       </div>
-      <div>
+      <picture>
+        <source media="(max-width: 800px)" srcset="./motos-img/triumph 02.jpg">
         <img src="./motos-img/intromoto.jpg" alt="moto de introdução" />
-      </div>
+      </picture>
     </div>
   </main>
+
   <!----------------------LISTA DE MOTOS---------------->
   <article class="motos-lista">
     <h2 class="container font-1-xxl">
@@ -58,22 +63,22 @@
     <ul>
       <li>
         <a href="./motos/motos.html">
-          <img src="./motos-img/Ducati_Zero_2-1024x728.jpg" alt="motos" />
-          <h3 class="font-1-xl">Ducati Zero</h3>
+          <img src="./motos-img/voltz-evs-1p.jpg" alt="motos" />
+          <h3 class="font-1-xl">Voltz-EVS</h3>
           <span class="font-2-m cor-8">800 cc</span>
         </a>
       </li>
       <li>
         <a href="./motos/motos.html">
-          <img src="./motos-img/ethec.jpg" alt="motos" />
-          <h3 class="font-1-xl">Etech</h3>
+          <img src="./motos-img/ty05.jpg" alt="motos" />
+          <h3 class="font-1-xl">Yamaha TY-E</h3>
           <span class="font-2-m cor-8">300 cc</span>
         </a>
       </li>
       <li>
         <a href="./motos/motos.html">
-          <img src="./motos-img/sondors.jpg" alt="motos" />
-          <h3 class="font-1-xl">Sondors</h3>
+          <img src="./motos-img/triumph 02.jpg" alt="motos" />
+          <h3 class="font-1-xl">Triumph TE-1</h3>
           <span class="font-2-m cor-8">200 cc</span>
         </a>
       </li>
@@ -95,7 +100,7 @@
           ergonomia e potência na pista. Você pode também escolher as suas
           cores<span>.</span>
         </p>
-        <a class="link" href="./motos.html">Escolha um modelo</a>
+
         <div class="tecnologia-vantagens">
           <div>
             <img src="./motos-img/icones/velocidade.svg" alt="moto" />
@@ -130,7 +135,7 @@
   <!-- ----------------------------------------------------------------------- -->
   <section class="parceiros" aria-label="Nossos parceiros">
     <h2 class="container font-1-xxl">
-      Nossos Paeceiros<span class="cor-p1">.</span>
+      Nossos Parceiros<span class="cor-p1">.</span>
     </h2>
     <ul>
       <li><img src="./motos-img/parceiros/caravan.svg" alt="caravan" /></li>
@@ -157,7 +162,7 @@
           intensificou esta paixão e me ajudou a encontrar a moto que mais se
           encaixava em meu perfil.
         </p>
-        <span class="font-1-m-b cor-p4">Luiz Alberto Junior</span>
+        <span class="font-1-m-b cor-p4">Edgar Allan Poe</span>
       </blockquote>
     </div>
   </section>
