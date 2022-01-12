@@ -13,8 +13,9 @@
 }
 
 .depoimento-conteudo{
-    padding: 80px 40px 80px 80px;
+    padding: 90px 40px 80px 80px;
     align-self: end;
+    background:  url("../../motos-img/dec/bottom-right-p.svg") no-repeat bottom 40px right 40px ;
 }
 
 .depoimento-conteudo p{
@@ -40,6 +41,13 @@
 .depoimento p::after{
     content:  " ” ";  
 }
+
+@media (min-width: 1200px) {
+    .depoimento img{
+        max-height: 520px;
+    }   
+}
+
 
 @media(max-width: 800px){
     .depoimento{
