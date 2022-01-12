@@ -4,7 +4,7 @@
 
 .header{
     display: flex ;
-   /* flex-wrap: wrap Quebra linha no modo responsivo*/;
+    flex-wrap: wrap;
     gap: 20px; /*Distancia dos elementos no modo responsivo*/
     justify-content: space-between;
     align-items: center;
@@ -23,6 +23,7 @@
     padding: 10px 16px;
     border-radius: 4px;
     position: relative;/*Resolve problema com Elemento pegando toda largura */
+    
 }
 
 .header-menu a:after{ /*Elemento com transições abaixo dos menus no header*/
@@ -42,24 +43,20 @@
 
 /*RESPONSIVO*/
 @media (max-width: 800px){
-    .header-menu{
+    .header-menu a{
         gap: 20px;
-        display: flex;
-justify-content: center;
-align-items:center; 
-    
+        align-items: center;
     }
+    
+    .header img{
+        width: 300px;
+    }
+
     .header-menu a{
         background: var(--cor-11);
         padding: 12px 16px;
         border-radius: 4px; 
     }
-
-    
-    .header img{
-        display: none;
-    }
-
 
     .header-menu a:hover{ 
         background-color: var(--cor-10);
@@ -69,12 +66,13 @@ align-items:center;
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 750px){
     .header-menu{
        gap: 12px;
     }
+
     .header-menu a{
         padding: 8px 12px;
-        font-size: 14px;
+        font-size: 16px; 
     }
 }
