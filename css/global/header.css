@@ -14,6 +14,7 @@
 
 .header-menu{
     display: flex ;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
@@ -22,7 +23,7 @@
     display: inline-block;
     padding: 10px 16px;
     border-radius: 4px;
-    position: relative;/*Resolve problema com Elemento pegando toda largura */
+    align-items: center;
     
 }
 
@@ -34,18 +35,19 @@
     background: var(--cor-0);
     margin-top: 4px;
     transition: 0.3s;
-    position: relative;/*Retira o Elemento do fluxo e não quebra centralização com a imagem do logo*/
+    
 }
 
-.header-menu a:hover:after{/*Elemento abaixo do header menus*/
+.header-menu a:hover:after, /*Elemento abaixo do header menus*/
+.header-menu a.ativo::after{
     width: 100%;
 }
 
 /*RESPONSIVO*/
 @media (max-width: 800px){
-    .header-menu a{
+    .header-menu{
+        font-size: 40px; 
         gap: 20px;
-        align-items: center;
     }
     
     .header img{
@@ -68,7 +70,7 @@
 
 @media (max-width: 750px){
     .header-menu{
-       gap: 12px;
+       gap: auto;
     }
 
     .header-menu a{
