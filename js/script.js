@@ -21,3 +21,17 @@ function ativarProduto(parametro) {
     }
 }
 parametros.forEach(ativarProduto);
+
+//Perguntas frequentes
+
+const  perguntas = document.querySelectorAll(".perguntas button");
+
+function ativarPerguntas(event){
+    const pergunta = event.currentTaget;
+}
+
+function eventosPerguntas(pergunta){
+    pergunta.addEventListener('click', ativarPergunta);
+}
+
+perguntas.forEach(eventosPerguntas);
