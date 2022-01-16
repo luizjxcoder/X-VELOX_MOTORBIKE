@@ -43,15 +43,19 @@
 }
 
 /*RESPONSIVO*/
-@media (max-width: 800px){
+
+
+
+@media (max-width: 1000px){
     .header-menu{
         font-size: 40px; 
         gap: 20px;
     }
     
     .header img{
-        width: 300px;
+        width: 200px;
     }
+
 
     .header-menu a{
         background: var(--cor-11);

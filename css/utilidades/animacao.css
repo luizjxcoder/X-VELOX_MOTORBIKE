@@ -14,23 +14,23 @@ inicial da animação na classe
 <p data-anime="1000" class="fadeInDown">Descrição da Página</p>
 <button data-anime="1500">Clique Aqui</button>*/
 
-.fadeInDown {
+.js .fadeInDown {
   transform: translate3d(0, -20px, 0);
 }
-.fadeInUp {
+.js .fadeInUp {
   transform: translate3d(0, 20px, 0);
 }
-.fadeInRight {
+.js .fadeInRight {
   transform: translate3d(20px, 0, 0);
 }
-.fadeInLeft {
+.js .fadeInLeft {
   transform: translate3d(-20px, 0, 0);
 }
 
-[data-anime] {
+.js [data-anime] {
   opacity: 0;
 }
-.anime {
+.js .anime {
   opacity: 1;
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
