@@ -47,13 +47,18 @@
 
 
 @media (max-width: 1000px){
-    .header-menu{
+    .header-menu{ 
         font-size: 40px; 
+        gap: 20px;
+    }
+
+     .header-menu a{ 
+        font-size: 18px; 
         gap: 20px;
     }
     
     .header img{
-        width: 200px;
+        width: 150px;
     }
 
 
