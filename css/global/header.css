@@ -43,24 +43,22 @@
 }
 
 /*RESPONSIVO*/
-
-
-
 @media (max-width: 1000px){
     .header-menu{ 
         font-size: 40px; 
         gap: 20px;
-    }
+    }   
 
+}
+    .header img{
+        width: 300px;
+    }
+ 
      .header-menu a{ 
         font-size: 18px; 
         gap: 20px;
     }
     
-    .header img{
-        width: 150px;
-    }
-
 
     .header-menu a{
         background: var(--cor-11);
@@ -74,11 +72,17 @@
     .header a:after{
         display: none;
     }
-}
 
-@media (max-width: 750px){
+@media (max-width: 900px){
     .header-menu{
-       gap: auto;
+       gap: auto;  
+    }    
+    .container{
+      justify-content: center;
+    }
+
+     .header img{
+        width: 200px;
     }
 
     .header-menu a{
