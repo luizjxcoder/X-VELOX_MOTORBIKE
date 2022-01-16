@@ -43,18 +43,18 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">
           As Motos Elétricas mais modernas do mundo ao seu alcance<span class="cor-p1">.</span>
         </h1>
-        <p class="font-2-l cor-5">
+        <p class="font-2-l cor-5" data-anime="400">
           Motos Elétricas de alta ou baixas cilindradas. Desenhadas por
           Designers, produzidas para atender todas as necessidades
         </p>
-        <a class="button" href="./motos.html">Faça sua escolha!</a>
+        <a class="button" data-anime="600" href="./motos.html">Faça sua escolha!</a>
       </div>
-      <picture>
+      <picture data-anime="800">
         <source media="(max-width: 800px)" srcset="./motos-img/triumph 02.jpg">
-        <img src="./motos-img/triumph 02.jpg" alt="moto de introdução" />
+        <img src="./motos-img/triumph 02.jpg" width="1280" height="1600" alt="moto de introdução" alt="moto cinza">
       </picture>
     </div>
   </main>
@@ -66,24 +66,24 @@
     </h2>
     <ul>
       <li>
-        <a href="./motos/motos.html">
+        <a href="./motos/voltz.html">
           <img src="./motos-img/voltz-evs-1p.jpg" alt="motos" />
           <h3 class="font-1-xl">Voltz-EVS</h3>
-          <span class="font-2-m cor-8">800 cc</span>
+          <span class="font-2-m cor-8">120 cc</span>
         </a>
       </li>
       <li>
-        <a href="./motos/motos.html">
+        <a href="./motos/yamaha.html">
           <img src="./motos-img/ty01.jpg" alt="motos" />
           <h3 class="font-1-xl">Yamaha TY-E</h3>
-          <span class="font-2-m cor-8">300 cc</span>
+          <span class="font-2-m cor-8">150 cc</span>
         </a>
       </li>
       <li>
-        <a href="./motos/motos.html">
+        <a href="./motos/triumph.html">
           <img src="./motos-img/triumph 02.jpg" alt="motos" />
           <h3 class="font-1-xl">Triumph TE-1</h3>
-          <span class="font-2-m cor-8">200 cc</span>
+          <span class="font-2-m cor-8">350 cc</span>
         </a>
       </li>
     </ul>
@@ -248,6 +248,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
