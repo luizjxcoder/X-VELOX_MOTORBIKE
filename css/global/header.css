@@ -58,7 +58,7 @@
         font-size: 18px; 
         gap: 20px;
     }
-    
+}
 
     .header-menu a{
         background: var(--cor-11);
@@ -90,3 +90,4 @@
         font-size: 13px; 
     }
 }
+
