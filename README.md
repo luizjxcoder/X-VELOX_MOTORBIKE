@@ -10,7 +10,8 @@
 ```
 <p Front-End de um site completo criado com aprendizado adquirido no curso Web da ORIGAMID.
 Foi usado tecnologias como HTML, CSS, JAVASCRIPT e ferramnetas como VS Code, Adobe Photoshop 
-para redimensionar imagens, e Figma para prototipar o projeto antes da produção dos códigos
+para redimensionar imagens, e Figma para prototipar o projeto antes da produção dos códigos.
+Projeto está hospedado no site Vercel, click no link acima e visualize meu projeto em seu navegador!
 </p>
 ```
 
