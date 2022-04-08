@@ -14,6 +14,7 @@ para redimensionar imagens, e Figma para prototipar o projeto antes da produçã
 Projeto está hospedado no site Vercel, click no link abaixo e visualize meu projeto em seu navegador!
 </p>
 ```
+
 #
 ### contact me
 <a href="https://contate.me/jxcoder"  alt="WhatsApp" target="_blank">
@@ -26,6 +27,7 @@ Projeto está hospedado no site Vercel, click no link abaixo e visualize meu pro
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
 
+#
 <div align="center">
     <img alt="Logo do projeto" src="https://raw.githubusercontent.com/gdcmarinho/links-uteis/master/logo.png">
      <p>LINK DO MEU PROJETO NA VERCEL</p>
