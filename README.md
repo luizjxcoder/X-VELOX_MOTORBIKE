@@ -19,7 +19,7 @@ Projeto está hospedado no site Vercel, click no link abaixo e visualize meu pro
 <a href="https://contate.me/jxcoder"  alt="WhatsApp" target="_blank">
 <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
 </a>
-<a href="https://mailto: jxcoder.dev@gmail.com" alt="Gmail" target="_blank">
+<a href="mailto:jxcoder.dev@gmail.com" alt="Gmail" target="_blank">
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
  </a>
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
