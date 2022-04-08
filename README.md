@@ -3,7 +3,7 @@
   </div>
 
 #### :atom: TECNOLOGIAS USADAS NO PROJETO:
-<img src="https://cdn3.iconfinder.com/data/icons/roles-computer-it/128/front-end_developer-2-256.png" width="150" height="150"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-512.png" width="40" height="40"> <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" width="40" height="40"> <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-256.png" width="45" height="45">
+<img src="https://cdn3.iconfinder.com/data/icons/roles-computer-it/128/front-end_developer-2-256.png" width="150" height="150"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
 #
 ### :triangular_ruler: PROJETO
