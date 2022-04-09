@@ -2,11 +2,11 @@
   <h1 align="center"> X-VELOX-MOTORBIKE </h1>
   </div>
 
-#### :atom: TECNOLOGIAS USADAS NO PROJETO:
+### :atom: TECNOLOGIAS USADAS NO PROJETO:
 <img src="https://cdn3.iconfinder.com/data/icons/roles-computer-it/128/front-end_developer-2-256.png" width="150" height="150"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
 #
-#### :atom: FERRAMENTAS DE DESENVOLVIMENTO:
+### :atom: FERRAMENTAS DE DESENVOLVIMENTO:
 ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
 ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
@@ -26,7 +26,7 @@ Projeto está hospedado no site Vercel, click no link abaixo e visualize meu pro
 ```
 
 #
-### contact me
+### :email: contact me
 <a href="https://contate.me/jxcoder"  alt="WhatsApp" target="_blank">
 <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
 </a>
