@@ -3,10 +3,13 @@
   </div>
 
 ### :atom: TECNOLOGIAS USADAS NO PROJETO:
-<img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/cadeirasemfundo.png" width="150" height="150"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<div align="center">
+<img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/cadeirasemfundo.png" width="150" height="150"/> </div>
+<div align="center">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></div>
 
 #
-### :atom: FERRAMENTAS DE DESENVOLVIMENTO:
+### :toolbox: FERRAMENTAS DE DESENVOLVIMENTO:
 ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
 ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
