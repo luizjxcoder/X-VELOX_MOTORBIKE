@@ -21,9 +21,10 @@
 #
 ### :triangular_ruler: PROJETO
 ```
-<p Front-End completo de um website criado com aprendizado adquirido no curso Web da ORIGAMID.
+<p> Front-End completo de um website criado com aprendizado adquirido no curso Web da ORIGAMID.
 Foi usado tecnologias como HTML, CSS, JAVASCRIPT e ferramentas como Adobe Photoshop e Illustrator
-para editar e redimensionar imagens, Adobe XD para prototipar o projeto e VsCode como IDE.
+para editar e redimensionar imagens, Adobe XD para prototipar o projeto e VsCode como IDE. Aplicando técnicas mais 
+avançadas de formatação usando Grid Layout e trabalhando com responsividade
 Projeto está hospedado no site Vercel, click no link abaixo e visualize meu projeto em seu navegador!
 </p>
 ```
