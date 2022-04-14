@@ -1,14 +1,11 @@
+<div align="center">
 <h1 align="center">X-VELOX MOTORBIKE</h1>
-:atom: TECNOLOGIAS
-<br>USADAS NO PROJETO:
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<div align="end">
-<img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/CardSemFundo.png" width="600"/>
+
+<img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/CardGitmaterial-1_Prancheta%201.png"/>
+
+:atom: TECNOLOGIAS USADAS NO PROJETO:
 </div>
 
-  
-:atom: TECNOLOGIAS USADAS NO PROJETO:
 <div align="center">
 <img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/cadeirasemfundo.png" width="150" height="150"/> </div>
 <div align="center">
