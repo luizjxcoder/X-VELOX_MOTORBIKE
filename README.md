@@ -1,6 +1,6 @@
 <h1 align="center">X-VELOX MOTORBIKE</h1>
 <div align="center" >
-<img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/CardSemFundo.png" width="900"/>
+<img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/CardSemFundo.png" width="800"/>
 </div>
  
 #
