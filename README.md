@@ -3,7 +3,7 @@
 
 <img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/CardSemFundopng_Prancheta%201.png"/>
 
-:atom: TECNOLOGIAS USADAS NO PROJETO:
+### :atom: TECNOLOGIAS USADAS NO PROJETO:
 </div>
 
 <div align="center">
