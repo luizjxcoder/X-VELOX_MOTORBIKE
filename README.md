@@ -1,5 +1,7 @@
 <h1 align="center">X-VELOX MOTORBIKE</h1>
-<img align="center" src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/CardGitmaterialsem%20fundo-1.png" width="900"/>
+<div align="center" >
+<img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/CardSemFundo.png" width="900"/>
+</div>
  
 #
 ### :atom: TECNOLOGIAS USADAS NO PROJETO:
