@@ -47,7 +47,7 @@ Projeto está hospedado no site Vercel, click no link abaixo e visualize meu pro
 
 #
 <div align="center">
-    <img alt="Logo do projeto" src="https://raw.githubusercontent.com/gdcmarinho/links-uteis/master/logo.png">
+    <img alt="Logo do projeto" src="https://github.com/luizjxcoder/luizjxcoder/blob/main/logo.png">
      <p>LINK DO MEU PROJETO NA VERCEL</p>
     <h1>https://projeto-xvelox-motorbike.vercel.app/</h1>
 </div>
